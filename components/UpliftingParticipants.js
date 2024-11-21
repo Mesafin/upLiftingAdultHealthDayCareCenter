@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const UpliftingParticipants = () => {
   return (
-    <div className="container mx-auto mt-2 md:mt-4 p-6 md:p-24">
+    <div className="container mx-auto mt-2 md:mt-10 p-6 md:pb-12 md:mt-24">
       {/* Main Container */}
       <div className="grid lg:grid-cols-2 gap-24 items-center">
         {/* Left Section - Images */}
@@ -52,21 +52,21 @@ const UpliftingParticipants = () => {
         </div>
 
         {/* Right Section - Text */}
-        <div className="space-y-4">
-          <h2 className="text-2xl font-bold font-montserrat text-gray-900">
+        <div className="space-y-6 ">
+          <h2 className="text-3xl font-bold font-montserrat tracking-wider text-gray-900">
             Uplifting Our <span className="text-red-500">Participants</span>
           </h2>
-          <p className="text-gray-700 font-montserrat text-lg">
+          <p className="text-gray-700 font-montserrat text-sm md:pe-4 xl:pe-2 xxl:text-lg  font-semibold">
             Uplifting Adult Day Center (UADC) is a non-profit organization
             incorporated under section 501(c).
             
           </p>
-          <p className="text-gray-700 font-montserrat text-lg">
+          <p className="text-gray-700 font-montserrat text-sm md:pe-4 font-semibold xxl:text-lg xl:pe-2">
           At Uplifting Adult Day Care
           Center, our mission is to enhance lives in Inglewood. We provide:
             
           </p>
-          <ul className="space-y-2 font-montserrat pb-2 md:pb-4">
+          <ul className="space-y-4 font-montserrat text-sm pb-2 md:pb-8 md:pe-4 xxl:text-lg xl:pe-2">
             <li>
               <strong>Engaging Activities:</strong> Fun and stimulating programs
               to keep you active.

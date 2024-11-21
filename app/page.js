@@ -1,7 +1,9 @@
+import GallerySection from "@/components/GallerySection";
 import HeartShapedImage from "@/components/HeartShapedImage";
 import Hero from "@/components/Hero";
 import Hero2 from "@/components/Hero2";
 import HeroSide from "@/components/HeroSide";
+import ServicesSection from "@/components/ServicesSection";
 import UpliftingParticipants from "@/components/UpliftingParticipants";
 
 export default function Home() {
@@ -17,7 +19,9 @@ export default function Home() {
       {/* <Hero /> */}
       <Hero2 />
       <UpliftingParticipants />
-      <HeartShapedImage />
+      <ServicesSection />
+      <GallerySection />
+      {/* <HeartShapedImage /> */}
       {/* <div className="text-center mt-6">
         <a href="/services" className="text-blue-500 underline">
           Learn about our services

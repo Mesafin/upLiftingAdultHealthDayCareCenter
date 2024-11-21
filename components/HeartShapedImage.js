@@ -3,7 +3,7 @@ import React from 'react'
 import heartedImage from "../public/heroImage.png"
 const HeartShapedImage = () => {
   return (
-    <div className='second-shape conatiner mx-auto w-48'>
+    <div className='spiral-shape conatiner mx-auto w-48'>
       {/* <Image 
       src={heartedImage}
       alt="Heart Shaped Image"

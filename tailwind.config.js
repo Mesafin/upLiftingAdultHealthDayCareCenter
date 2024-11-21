@@ -14,6 +14,7 @@ module.exports = {
         white: "#ffffff", 
         background: "var(--background)", 
         foreground: "var(--foreground)",
+        grelish: "#9AA4B4"
       },
       fontFamily: {
         chunk: ["ChunkFive", 'serif'], 

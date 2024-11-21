@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const Footer = () => {
@@ -97,12 +98,21 @@ const Footer = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dot
             dolore magna aliqua.
           </p>
-          <button className="mt-4 bg-uRed hover:bg-red-500 text-white py-2 px-4 rounded">
-            Make an appointment
-          </button>
+          <div className="flex flex-col gap-6 ">
+            
+
+          <Link href="/contact">
           <button className="mt-4 bg-uRed hover:bg-red-500 text-white py-2 px-4 rounded">
             Contact Us
           </button>
+          </Link>
+          <Link href="/appointment">
+          <button className="mt-4 bg-uRed hover:bg-red-500 text-white py-2 px-4 rounded">
+            Make an appointment
+          </button>
+          </Link>
+         
+          </div>
         </div>
       </div>
     </footer>
