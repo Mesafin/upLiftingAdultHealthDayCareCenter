@@ -8,8 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        uRed: "#c33333", 
+        footerBg: "#3d4657", 
+        accent: "#6e7788", 
+        white: "#ffffff", 
+        background: "var(--background)", 
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        chunk: ["ChunkFive", 'serif'], 
+        montserrat: ['"Montserrat"', 'sans-serif'],
       },
     },
   },
