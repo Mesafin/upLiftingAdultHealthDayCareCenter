@@ -24,14 +24,14 @@ const GallerySection = () => {
 };
 
 const RoundedImage = ({ src, alt }) => (
-  <div className="overflow-hidden w-full md:w-[240px] rounded-tl-none rounded-tr-[40%] rounded-br-none rounded-bl-[10%]">
+  <div className="overflow-hidden w-full md:w-[240px] rounded-tl-none rounded-tr-[30%] rounded-br-none rounded-bl-[10%]">
     <Image
       src={src}
       alt={alt}
       width="auto"
       // height={600}
       style={{
-        height: "240px"
+        height: "200px"
       }}
       className="fill"
     />

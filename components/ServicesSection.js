@@ -56,7 +56,7 @@ const ServicesSection = () => {
         <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
           <div className="p-6 font-montserrat">
-            <h3 className="text-3xl lg:text-4xl font-bold mb-4">A Place to Thrive</h3>
+            <h3 className="text-3xl lg:text-4xl font-bold mb-4 font-chunk">A Place to Thrive</h3>
             <p className="mb-6">
               Welcome to Uplifting Adult Day Care Center – where every day is an adventure! Our
               center is buzzing with fun and excitement, offering a mix of social events, physical

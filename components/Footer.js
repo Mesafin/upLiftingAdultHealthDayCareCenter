@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <>
  
-    <footer className="text-white bg-footerBg md:p-10 p-5 font-chunk  ">
+    <footer className="text-white bg-footerBg md:p-10 p-5 md:pt-24 font-chunk  ">
        
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-4 pb-12">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-4">
         <div className="md:col-span-2 md:pe-6">
           {/* <h2 className="text-2xl font-bold mb-8">
             Uplifting <span className="text-red-500">Adult</span> Day Center
             </h2> */}
-          <p className="mb-8 font-light">
+          <p className="mb-10 font-light">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-8 tracking-widest">QUICK LINKS</h3>
+          <h3 className="text-lg font-semibold mb-8 md:mb-16 tracking-widest">QUICK LINKS</h3>
           <ul>
             <li>
               <a href="#" className="hover:text-red-500">
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-8 tracking-widest">USEFUL LINKS</h3>
+          <h3 className="text-lg font-semibold mb-8 md:mb-16 tracking-widest">USEFUL LINKS</h3>
           <ul>
             <li>
               <a href="#" className="hover:text-red-500">
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
 
         <div className="">
-          <h3 className="text-lg font-semibold tracking-widest mb-8">NEWSLETTER</h3>
+          <h3 className="text-lg font-semibold tracking-widest mb-8 md:mb-16">NEWSLETTER</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dot
             dolore magna aliqua.
@@ -102,12 +102,12 @@ const Footer = () => {
             
 
           <Link href="/contact">
-          <button className="mt-4 bg-uRed hover:bg-red-500 text-white py-2 px-4 rounded">
+          <button className="mt-8 bg-uRed hover:bg-red-500 text-white py-2 px-4 rounded">
             Contact Us
           </button>
           </Link>
           <Link href="/appointment">
-          <button className="mt-4 bg-uRed hover:bg-red-500 text-white py-2 px-4 rounded">
+          <button className="mt-2 bg-uRed hover:bg-red-500 text-white py-2 px-4 rounded">
             Make an appointment
           </button>
           </Link>
