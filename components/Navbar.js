@@ -45,7 +45,7 @@ const Navbar = () => {
         <div
           className={`${
             menuOpen ? "block" : "hidden"
-          } lg:flex lg:space-x-6 font-montserrat font-semibold items-center absolute lg:static top-32 pb-6 right-0 w-full lg:w-auto bg-white lg:bg-transparent z-10`}
+          } lg:flex lg:space-x-6 font-montserrat font-semibold items-center absolute lg:static top-20 pb-6 right-0 w-full lg:w-auto bg-white lg:bg-transparent z-10`}
         >
           {/* Links */}
           <div className="flex flex-col lg:flex-row lg:space-x-6 pt-5 px-6 lg:px-0">

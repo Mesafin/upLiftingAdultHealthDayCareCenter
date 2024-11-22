@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const UpliftingParticipants = () => {
   return (
-    <div className="container mx-auto mt-2 md:mt-10 p-6 md:pb-12 md:mt-24">
+    <div className="container mx-auto mt-60 p-6 md:pb-12 md:mt-24 bg-white">
       {/* Main Container */}
       <div className="grid lg:grid-cols-2 gap-24 items-center">
         {/* Left Section - Images */}

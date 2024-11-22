@@ -23,7 +23,7 @@ const Hero2 = () => {
 
   return (
     <section
-      className="relative h-screen flex items-center bg-cover bg-center"
+      className="relative h-screen flex items-center bg-cover bg-center mt-56 md:mt-2"
       style={{
         backgroundImage: "url(/svg/low-poly-grid-haikei.svg)",
         // borderTopRightRadius: "150px",

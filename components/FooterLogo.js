@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const FooterLogo = () => {
   return (
-    <div className='container mx-auto w-auto flex p-7 '>
+    <div className='container mx-auto w-auto flex p-7 bg-white'>
           <div className="w-1/3">
             <Image
             src={footerlogo}

@@ -125,9 +125,11 @@ body {
   background-size: cover;
   background-color: #CEDAE3;
   margin-bottom: -350px;
+  margin-top: -5px;
 }
 .topSvg{
   margin-top: -300px;
+  margin-bottom: -5px;
   height: 500px;
   width: auto;
   background-image: url('../public/home/wave-top.svg');
