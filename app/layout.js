@@ -35,6 +35,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
           rel="stylesheet"
         />  
+        <link rel="icon" type="image/png" href="/favicon3.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
