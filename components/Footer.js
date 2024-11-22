@@ -12,11 +12,11 @@ const Footer = () => {
           {/* <h2 className="text-2xl font-bold mb-8">
             Uplifting <span className="text-red-500">Adult</span> Day Center
             </h2> */}
-          <p className="mb-10 font-light">
+          <p className="mb-10 text-xl">
           Our mission is to revolutionize senior care by building a vibrant community where seniors’ mental,
           emotional, and social needs are catered to through top-notch medical therapeutic care
           </p>
-          <p className="mb-8 font-light">
+          <p className="mb-8 font-light text-xl">
           We envision a future where every senior feels deeply connected, empowered, and celebrated, fostering a
           legacy of resilience, dignity, and belonging for generations to come.
           </p>

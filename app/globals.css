@@ -147,3 +147,24 @@ body p {
 
   }
 }
+
+/* @media (max-width: 1027px) {
+.imageRatio{
+  height: 236px;
+}
+}
+@media (min-width: 1027px) {
+.imageRatio{
+  min-height: 136px;
+}
+}
+@media (min-width: 1535px) {
+.imageRatio{
+  min-height: 168px;
+}
+}
+@media (min-width: 1635px) {
+.imageRatio{
+  min-height: 168px;
+}
+} */

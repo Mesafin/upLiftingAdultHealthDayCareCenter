@@ -23,7 +23,7 @@ const Hero2 = () => {
 
   return (
     <section
-      className="relative h-screen flex items-center bg-white bg-cover bg-center"
+      className="relative flex items-center bg-white bg-cover bg-center"
       style={{
         backgroundImage: "url(/svg/low-poly-grid-haikei.svg)",
         // borderTopRightRadius: "150px",
@@ -34,24 +34,24 @@ const Hero2 = () => {
       <div className="container mx-auto flex flex-col md:flex-row gap-12 md:gap-8 justify-between items-center relative z-10 px-6 py-16 lg:py-32">
         {/* Left Side (Text and Button) */}
         <div className="w-full md:w-1/2 text-black md:px-20 ">
-          <h1 className="text-4xl font-semibold text-uRed font-chunk tracking-wider mb-4 ps-5" style={{
+          <h1 className="text-4xl font-semibold text-uRed font-chunk tracking-wider mb-4 lg:mb-6 ps-5" style={{
             borderLeft: "6px solid #c33333"
           }}>
             {" "}
             Welcome to Uplifting Adult Day Care Center!
           </h1>
-          <p className=" text-xl font-montserrat text-slate-900 font-bold mb-4">
+          <p className=" text-xl font-montserrat text-slate-900 font-bold mb-4 lg:mb-6">
             Located in the Heart of Inglewood, We're More Than Just a Day Care -
             We're a Community!
           </p>
-          <p className="text-slate-900 font-bold text-sm font-montserrat mb-8">
+          <p className="text-slate-900 font-bold sm:text-sm lg:text-lg font-montserrat mb-8">
             At Uplifting Adult Day Care Center, we believe every day should be
             filled with joy, comfort, and connection. Whether you're seeking a
             supportive environment for yourself or a loved one, our center is
             here to provide a nurturing space where everyone can thrive.
           </p>
           <Link href="/about">
-            <button className="bg-uRed text-white px-5 py-2 rounded-full hover:bg-red-500 transition-all duration-300">
+            <button className="bg-uRed text-white px-5 py-2 lg:text-lg rounded-full hover:bg-red-500 transition-all duration-300">
               Learn More
             </button>
           </Link>
