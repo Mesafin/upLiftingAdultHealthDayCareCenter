@@ -23,7 +23,7 @@ const Hero2 = () => {
 
   return (
     <section
-      className="relative h-screen flex items-center bg-white bg-cover bg-center mt-56 md:mt-2"
+      className="relative h-screen flex items-center bg-white bg-cover bg-center"
       style={{
         backgroundImage: "url(/svg/low-poly-grid-haikei.svg)",
         // borderTopRightRadius: "150px",
@@ -31,10 +31,10 @@ const Hero2 = () => {
       }}
     >
       <div className="absolute inset-0  bg-white opacity-70"></div>
-      <div className="container mx-auto flex flex-col md:flex-row gap-8 justify-between items-center relative z-10 px-6 py-16 lg:py-32">
+      <div className="container mx-auto flex flex-col md:flex-row gap-12 md:gap-8 justify-between items-center relative z-10 px-6 py-16 lg:py-32">
         {/* Left Side (Text and Button) */}
         <div className="w-full md:w-1/2 text-black md:px-20 ">
-          <h1 className="text-4xl font-semibold text-uRed font-chunk tracking-wider mb-4 ps-3" style={{
+          <h1 className="text-4xl font-semibold text-uRed font-chunk tracking-wider mb-4 ps-5" style={{
             borderLeft: "6px solid #c33333"
           }}>
             {" "}
@@ -59,7 +59,7 @@ const Hero2 = () => {
 
         {/* Right Side (Sliding Images) */}
         <div className="w-full md:w-1/2 relative overflow-hidden">
-          <div className="slider w-full h-[500px] rounded-full absolute">
+          <div className="slider w-full h-[300] md:h-[500px] rounded-full absolute">
             <div
               className="slide-container"
               style={{ transform: `translateX(-${currentSlide * 100}%)` }}

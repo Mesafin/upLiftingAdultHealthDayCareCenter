@@ -38,7 +38,7 @@ const Nav = () => {
 
         </ul>
 
-        <div className="lan-social flex">
+        <div className="lan-social flex flex-col gap-2 md:flex-row">
           <div className='pe-3'>
             {/* <LanguageSelector /> */}
             <Language />

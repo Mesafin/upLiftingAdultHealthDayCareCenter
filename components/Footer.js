@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
  
-    <footer className="text-white bg-footerBg md:p-10 p-5 md:pt-24 font-chunk  ">
+    <footer className="text-white bg-footerBg md:p-10 p-5 pt-20 md:pt-24 font-chunk  ">
        
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-4">
         <div className="md:col-span-2 md:pe-6">
@@ -13,12 +13,12 @@ const Footer = () => {
             Uplifting <span className="text-red-500">Adult</span> Day Center
             </h2> */}
           <p className="mb-10 font-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Our mission is to revolutionize senior care by building a vibrant community where seniors’ mental,
+          emotional, and social needs are catered to through top-notch medical therapeutic care
           </p>
           <p className="mb-8 font-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          We envision a future where every senior feels deeply connected, empowered, and celebrated, fostering a
+          legacy of resilience, dignity, and belonging for generations to come.
           </p>
 
           <div className="flex gap-4 mb-2 font-light ">
@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="flex items-center justify-center w-8 h-8 rounded-full bg-uRed text-white">
               <i className="fas fa-phone"></i>
             </div>{" "}
-            <p>(987) 654-3210</p>
+            <p>+1-626-232-1582</p>
           </div>
         </div>
 
@@ -44,22 +44,22 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-8 md:mb-16 tracking-widest">QUICK LINKS</h3>
           <ul>
             <li>
-              <a href="#" className="hover:text-red-500">
+              <a href="/about" className="hover:text-red-500">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-500">
+              <a href="/services" className="hover:text-red-500">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-500">
-                Virtual Tour
+              <a href="/donate" className="hover:text-red-500">
+                Donate
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-500">
+              <a href="/contact" className="hover:text-red-500">
                 Appointment
               </a>
             </li>
@@ -70,23 +70,23 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-8 md:mb-16 tracking-widest">USEFUL LINKS</h3>
           <ul>
             <li>
-              <a href="#" className="hover:text-red-500">
+              <a href="/about" className="hover:text-red-500">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-500">
+              <a href="/services" className="hover:text-red-500">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-500">
-                Virtual Tour
+              <a href="/contact" className="hover:text-red-500">
+                Contact us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-500">
-                Appointment
+              <a href="/career" className="hover:text-red-500">
+                career oportunities
               </a>
             </li>
           </ul>
@@ -95,8 +95,8 @@ const Footer = () => {
         <div className="">
           <h3 className="text-lg font-semibold tracking-widest mb-8 md:mb-16">NEWSLETTER</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dot
-            dolore magna aliqua.
+          Stay updated on our latest programs, services, and events that help seniors thrive in a community
+          designed for their well-being.
           </p>
           <div className="flex flex-col gap-6 ">
             

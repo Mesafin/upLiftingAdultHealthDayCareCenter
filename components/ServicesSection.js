@@ -8,7 +8,7 @@ const ServicesSection = () => {
       {/* Container */}
       <div className="container mx-auto px-6 py-4 md:pt-10 lg:px-12">
         {/* Title */}
-        <h2 className="text-3xl text-accent lg:text-4xl font-bold text-center mb-6 md:mb-16">
+        <h2 className="text-3xl text-accent lg:text-4xl font-bold text-center mb-20 md:mb-16">
           Uplifting Adult Day Care Center Services
         </h2>
 

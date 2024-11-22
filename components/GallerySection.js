@@ -8,7 +8,7 @@ const GallerySection = () => {
   return (
     <div className="bg-white py-12 second-shape md:py-20 -mt-52">
       {/* Title */}
-      <h2 className="text-2xl lg:text-3xl font-bold text-center mb-28 text-footerBg">
+      <h2 className="text-2xl lg:text-3xl font-bold text-center mb-16 md:mb-28 text-footerBg">
         We're A Day Adult Day Care Provider
       </h2>
 
