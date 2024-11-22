@@ -144,9 +144,7 @@ body {
     height: 400px;
 
   }
-  body p {
-    text-align: justify;
-  }
+ 
 }
 
 /* @media (max-width: 1027px) {
