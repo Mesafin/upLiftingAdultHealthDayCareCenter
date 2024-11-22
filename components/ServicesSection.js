@@ -4,7 +4,7 @@ import elderlyCare from "../public/home/adventure2.png"
 import Link from "next/link";
 const ServicesSection = () => {
   return (
-    <div className="pt-12 my-4 md:my-6" style={{backgroundColor: "#F3F3F3"}}>
+    <div className="pt-12 md:my-6" style={{backgroundColor: "#F3F3F3"}}>
       {/* Container */}
       <div className="container mx-auto px-6 py-4 md:pt-10 lg:px-12">
         {/* Title */}
