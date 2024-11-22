@@ -64,7 +64,7 @@ const ServicesSection = () => {
               community where friendships blossom and every participant feels right at home.
             </p>
             <h4 className="text-xl font-bold mb-4">Come Join the Fun!</h4>
-            <p className="mb-6">
+            <p className="mb-6 sm:hidden md:block">
               Curious to see what we’re all about? Contact us to ask questions or schedule a visit.
               We can’t wait to show you around and welcome you into our lively community!
             </p>
