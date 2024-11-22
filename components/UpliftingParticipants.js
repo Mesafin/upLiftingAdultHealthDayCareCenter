@@ -64,7 +64,7 @@ const UpliftingParticipants = () => {
             At Uplifting Adult Day Care Center, our mission is to enhance lives
             in Inglewood. We provide:
           </p>
-          <ul className="space-y-4 text-grey-700 font-montserrat sm:text-sm lg:text-lg pb-5 md:pb-8 md:pe-4 xxl:text-lg xl:pe-2">
+          <ul className="space-y-4 text-gray-700 font-montserrat sm:text-sm lg:text-lg pb-5 md:pb-8 md:pe-4 xxl:text-lg xl:pe-2">
             <li>
               <strong>Engaging Activities:</strong> Fun and stimulating programs
               to keep you active.
