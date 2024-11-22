@@ -76,7 +76,7 @@ const ServicesSection = () => {
           </div>
 
           {/* Image */}
-          <div className="relative text-center ">
+          <div className="relative ">
             <Image
               src={elderlyCare}
               alt="Elderly care"
